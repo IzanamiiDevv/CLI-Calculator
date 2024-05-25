@@ -1,0 +1,17 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: command-prompt
+
+    steps:
+    - uses: actions/setup-prog@v4
+    - name: Build Program
+      run: ./build
