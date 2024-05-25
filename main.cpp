@@ -14,6 +14,8 @@ int main(int argc, char* argv[]){
 
     std::string op = CLI::scan_string("-operator", argc, argv);
 
+    calculate(x, y, op);
+
     return 0;
 }
 
@@ -34,57 +36,57 @@ void calculate(int x, int y, std::string op){
     }
 
     if(toLower(op) == "sub"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::sub(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "subtraction"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::sub(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "minus"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::sub(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "mul"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::mul(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "multiplication"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::mul(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "multiply"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::mul(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "div"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::divd(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "divide"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::divd(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "division"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::divd(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "mod"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::mod(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "modolus"){
-        std::cout << Op::add(x,y) << '\n';
+        std::cout << Op::mod(x,y) << '\n';
         return;
     }
 
