@@ -12,9 +12,10 @@ int main(int argc, char* argv[]){
     int x = CLI::scan_int("-x", argc, argv);
     int y = CLI::scan_int("-y", argc, argv);
 
-    std::string op = CLI::scan_string("-operator", argc, argv);
+    std::string oper = CLI::scan_string("-operator", argc, argv);
+    std::string op = CLI::scan_string("-op", argc, argv);
 
-    calculate(x, y, op);
+    calculate(x, y, (op != "") ? op : oper);
 
     return 0;
 }
