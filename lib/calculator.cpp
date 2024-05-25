@@ -24,8 +24,3 @@ namespace Op
     }
 }
 
-namespace Calc
-{
-    
-}
-
