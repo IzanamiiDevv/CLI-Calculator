@@ -8,12 +8,14 @@
 #endif
 
 extern "C" {
-    //Put all the function here
-    int add(int x, int y);
-    int add(int x, int y);
-    int add(int x, int y);
-    int add(int x, int y);
-    int add(int x, int y);
+    namespace Op
+    {
+        int add(int x, int y);
+        int sub(int x, int y);
+        int mul(int x, int y);
+        int divd(int x, int y);
+        int mod(int x, int y);
+    }
 }
 
 #endif
