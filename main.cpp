@@ -19,61 +19,75 @@ int main(int argc, char* argv[]){
 
 void calculate(int x, int y, std::string op){
     if(toLower(op) == "add"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "addition"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "plus"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "sub"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "subtraction"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "minus"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "mul"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "multiplication"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "multiply"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "div"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "divide"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "division"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
-
     if(toLower(op) == "mod"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
 
     if(toLower(op) == "modolus"){
+        std::cout << Op::add(x,y) << '\n';
         return;
     }
+
     std::cout << "Cant calculate the values no operator assigned" << '\n';
 }
 
