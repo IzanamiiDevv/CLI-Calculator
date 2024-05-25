@@ -1,9 +1,6 @@
-//Global Header
 #include <iostream>
 #include <string>
 #include <cstring>
-
-//Local Header
 #include "./../includes/cli.h"
 
 namespace CLI {

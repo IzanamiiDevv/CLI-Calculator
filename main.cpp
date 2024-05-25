@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include <cctype>
-
 #include "./includes/cli.h"
 #include "./includes/calculator.h"
 
