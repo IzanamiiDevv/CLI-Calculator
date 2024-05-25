@@ -1,1 +1,1 @@
-g++ -o calculator main.cpp src/*.cpp -L . -l calculator
+g++ -o calc main.cpp src/*.cpp -L . -l calculator
